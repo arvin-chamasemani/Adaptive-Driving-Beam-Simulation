@@ -48,6 +48,7 @@ def parse_args():
     parser.add_argument(
         "--fast",
         action="store_true",
+        default="1",
         help="enable faster but less accurate mode",
     )
     parser.add_argument(
