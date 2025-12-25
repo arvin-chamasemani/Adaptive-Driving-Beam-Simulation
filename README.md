@@ -3,7 +3,7 @@
 This repository contains a **prototype Adaptive Driving Beam (ADB)** pipeline built on top of **YOLO-based vehicle detection** and an **angular LED model**.  
 It simulates how a matrix LED headlamp could dim individual LEDs to avoid glaring other road users, while still keeping the road as bright as possible.
 
-![Demo](images/Video_Project.gif)
+![Demo](https://github.com/arvin-chamasemani/Adaptive-Driving-Beam-Simulation/blob/main/images/Video_Project.gif)
 
 ## 1. What this demo is about
 
@@ -18,9 +18,16 @@ This demo takes a **camera stream or image** (e.g., a dashcam), detects vehicles
 Visually, you get three main views:
 
 1. **Camera views**: original frame with detections + dimmed frame.
-2. **LED matrices**: grayscale grids for left, right, and combined headlamp LEDs.
-3. **Top view**: bird’s-eye projection of the light distribution on the road.
 
+     ![Demo Photo](images/Picture2.png)
+
+3. **LED matrices**: grayscale grids for left, right, and combined headlamp LEDs.
+
+     ![Demo Photo](images/Picture3.png)
+
+4. **Top view**: bird’s-eye projection of the light distribution on the road.
+
+     ![Demo Photo](images/Picture1.png)
 
 ## 2. Key concepts & design
 
@@ -223,4 +230,5 @@ This project uses the YOLO model based on the following repository:
 - Vehicle-Detection by MaryamBoneh: https://github.com/MaryamBoneh/Vehicle-Detection.git
 
 Please review third-party licensing terms to ensure compliance.
+
 
